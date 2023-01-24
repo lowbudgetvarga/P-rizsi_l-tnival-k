@@ -1,5 +1,12 @@
 body {
     font-family: 'Times New Roman', Times, serif;
+    background-color: RGB(213,227,246);
+    color: RGB(0,0,139);
+}
+
+#fejlec{
+    background-image: url('notredame.jpg');
+    height: 200px;
 }
 
 .tartalom {
@@ -12,8 +19,23 @@ body {
 }
 
 h1 {
+    font-size: 48px;
+    text-align: center;
     padding-top: 30px;
     margin-top: 0px;
+}
+
+h2{
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 14px;
+}
+
+th{
+    text-align: center;
 }
 
 #latnivalok {
@@ -30,6 +52,7 @@ h1 {
 }
 #kepeiffel
 {    
+    float: right;
     margin: 0 10px;
 }
 
